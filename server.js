@@ -8,7 +8,8 @@ const PORT = 3000;
 
 // Enable CORS for your client
 app.use(cors({
-  origin: 'http://127.0.0.1:5500', // Update with your allowed origin
+  origin: ['http://127.0.0.1:5500',"https://ugc-fe.onrender.com"]
+  
 }));
 
 // Middleware to parse JSON and URL-encoded bodies
